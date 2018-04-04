@@ -4,6 +4,7 @@ import "./App.css";
 import GetIndex from "./component/getIndex";
 import GetMax from "./component/getMax";
 import KeyBoard from "./component/keyboard";
+import Hoc from "./component/high/inversion";
 
 class App extends Component {
   render() {
@@ -15,7 +16,8 @@ class App extends Component {
         </header>
         {/* <GetIndex /> */}
         {/* <GetMax /> */}
-        <KeyBoard />
+        {/* <KeyBoard /> */}
+        <Hoc />
       </div>
     );
   }
