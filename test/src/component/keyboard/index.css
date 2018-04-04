@@ -1,0 +1,11 @@
+.number {
+  display: flex;
+  font-size: 48px;
+  flex-wrap: wrap;
+}
+.num {
+  width: 32%;
+  border-right: 1px solid #d7d7d7; /*no*/
+  border-top: 1px solid #d7d7d7; /*no*/
+  line-height: 100px;
+}
